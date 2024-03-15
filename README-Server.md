@@ -1,3 +1,30 @@
+# Server
+
+## Part-01: Building and Containerizing Application
+
+Requirement:
+- Choose an appropriate base image from the Official Images list.
+- Create a Dockerfile for the server container with the following specifications:
+  - Use a volume named "servervol" and mount it at "/serverdata" in the container.
+  - Install necessary packages and dependencies required for your server application.
+- Write a server application in your preferred language that does the following:
+  - Creates a 1KB file with random text data in the "/serverdata" directory.
+  - Sends the file and its checksum to the client.
+- Use Docker Compose to define and run the server container.
+
+Execution:
+
+
+## Part02: AWS-EC2 
+
+
+
+## Part03: Monitoring Stack
+
+
+
+## Part 04: Setting up CI/CD Pipeline | GitHub Actions
+
 wajahat@wajahat:~/.../Dicecamp-CapstoneProject-Server$ docker ps
 CONTAINER ID   IMAGE        COMMAND              CREATED          STATUS          PORTS                                       NAMES
 b53b69a1a9fd   server:0.1   "python server.py"   22 minutes ago   Up 22 minutes   0.0.0.0:8000->8000/tcp, :::8000->8000/tcp   cp-server
